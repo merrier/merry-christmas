@@ -290,8 +290,8 @@
 
             if (CONFIG.preload.autoScanLocal) {
                 for (let i = 1; i <= CONFIG.preload.scanCount; i++) {
-                    const pathJpg = `./images/(${i}).png`;
-                    const pathPng = `./images/(${i}).png`;
+                    const pathJpg = `./images/(${i}).jpg`;
+                    const pathPng = `./images/(${i}).jpg`;
                     loader.load(pathJpg, 
                         (t) => { t.colorSpace = THREE.SRGBColorSpace; addPhotoToScene(t); },
                         () => {
